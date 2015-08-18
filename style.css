@@ -1,0 +1,63 @@
+body {
+    line-height: 1;
+}
+
+body {
+    font-size: 50px;
+    background: #AC193D ;
+    color: #333333 ;
+
+}
+
+#todoapp {
+    background: #F0E8E8;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+ h1 {
+    font-family: 'Trade Winds', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+#a  {
+    width: 300px;
+    font-size: 20px;
+    line-height: 1em;
+    padding-left:537px;
+    padding-top: 20px;
+
+
+}
+
+
+#todo-list {
+
+    padding-left:20px;
+    list-style: none;
+}
+
+#todo-list li {
+    padding: 15px 20px 15px 0;
+   font-size: 20px;
+   padding-left:100px;
+    border-bottom: 1px solid #cccccc ;
+
+}
+
+#todo-list li .completed-true  {
+   color: #ccc;
+   margin-left: 30px;
+   text-decoration: line-through;
+   transition: all .3s ease;
+}
+
+#todo-list li .completed-false  {
+   margin-left: 30px;
+   transition: all .3s ease;
+}
+
+.delete {
+  padding-left: 20px;
+}
